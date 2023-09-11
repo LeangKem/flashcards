@@ -26,10 +26,10 @@ flashcardMaker = (text, delThisIndex) => {
 
   flashcard.className = 'flashcard';
 
-  word.setAttribute("style", "border-top:1px solid red; padding: 15px; margin-top:30px");
+  word.setAttribute("style", "border-top:1px solid black; padding: 15px; margin-top:30px; font-size:1.3rem");
   word.textContent = text.my_word;
 
-  meaning.setAttribute("style", "text-align:center; display:none; color:red");
+  meaning.setAttribute("style", "text-align:center; display:none; color:black; margin-top:30px");
   meaning.textContent = text.my_meaning;
 
   del.className = "fas fa-minus";
